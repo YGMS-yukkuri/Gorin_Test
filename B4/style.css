@@ -1,0 +1,10 @@
+div {
+    width: 600px;
+    height: 600px;
+    border-radius: 300px;
+    background-image: conic-gradient(
+        red 0 30%,
+        green 30% 40%,
+        blue 40% 100%
+    );
+}
