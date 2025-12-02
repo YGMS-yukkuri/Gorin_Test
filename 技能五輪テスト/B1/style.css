@@ -1,0 +1,14 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+.grid div {
+    border: 1px black solid;
+}
+.header {
+    grid-column: 1/4;
+}
+.nav {
+    grid-column: 4/9;
+}
