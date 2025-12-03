@@ -1,16 +1,18 @@
 body{
     display: flex;
+    gap: 50px;
 }
 div{
     width: 80px;
     height: 80px;
-    margin-left: 50px;
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 div:active{
     background-color: yellow;
-    border: solid 5px black;  
+    border: solid black 5px;  
+    width: 71px;
+    height: 71px;
 }
